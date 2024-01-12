@@ -17,7 +17,8 @@ const config: Config = {
         "tech-blue": "#3EA2DA",
         "design-purple": "#953EDA",
         "community-orange": "#DA923E",
-        "light-gray": "#B6B6B6"
+        "light-gray": "#B6B6B6",
+        "dark-purple": "#0C0129"
       },
       animation: {
         blob: "blob 5s linear infinite",

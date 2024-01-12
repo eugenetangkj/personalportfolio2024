@@ -2,9 +2,9 @@ import styles from './styles.module.css';
 
 //Bubble that appears in the hero's background
 interface BubbleProps
- {
+{
     bubbleIndex: number;
- }
+}
 
 function Bubble({ bubbleIndex }: BubbleProps) {
     return (

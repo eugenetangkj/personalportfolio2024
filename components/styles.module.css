@@ -1,5 +1,3 @@
-@tailwind components;
-
 .gradientText {
   background-image: linear-gradient(90deg, #3EA2DA, #953EDA, #DA923E);
   -webkit-text-fill-color: transparent;
@@ -7,3 +5,24 @@
   -webkit-background-clip: text;
   padding-bottom: 8px;
 }
+
+.navbar {
+  height: 100px;
+}
+
+.wrapper {
+  height: 100px;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+
+}
+

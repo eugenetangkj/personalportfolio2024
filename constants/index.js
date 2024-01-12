@@ -1,18 +1,22 @@
 export const menuLinks = [
     {
         route:"#about",
+        id: "about",
         label: "About Me"
     },
     {
         route:"#experience",
+        id: "experience",
         label: "Experience"
     },
     {
         route:"#projects",
+        id: "projects",
         label: "Projects"
     },
     {
         route:"#contact",
+        id: "contact",
         label: "Contact"
     },
 ]

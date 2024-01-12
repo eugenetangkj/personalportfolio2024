@@ -81,12 +81,37 @@ function Navbar() {
       }, []);
 
 
+    //Account for header during transitioning
+    const scrollToSection = (sectionId: string) => {
+        const sectionElement = document.getElementById(sectionId);
+
+
+        if (sectionElement) {
+            const offset = 150;
+            const sectionTop = sectionElement.offsetTop - offset;
+
+            window.scrollTo({
+            top: sectionTop,
+            behavior: 'smooth',
+            });
+        }
+    };
+
+
+
+
+
+
     return (
         <nav className='bg-white w-full z-30 h-small-10 fixed'>
             <div className='mx-5 md:container md:mx-auto md:w-large-90 py-5 flex items-center justify-between'>
             
             {/* Logo */}
-            <a href='#home'>
+            <a href='hero' onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('hero');
+                }}
+            >
                 <Image src='/assets/logo.png' alt="Logo" width={50} height={50} />
             </a>
 
@@ -99,7 +124,12 @@ function Navbar() {
                                 className="hover:text-gray-500 mx-5 duration-300"
                                 key={ link.label }
                             >
-                                <a href={ link.route }>{ link.label }</a>
+                                <a href={ link.route }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        scrollToSection(`${link.id }`);
+                                      }}
+                                >{ link.label }</a>
                             </li> 
                         )
                     })

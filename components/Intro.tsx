@@ -9,18 +9,36 @@ import Bubble from './Bubble';
 //Intro section
 function Intro() {
     return (
-        <div className='intro-div'>
+        <div id="home" className='intro-div'>
             <Bubble bubbleIndex={ 0 } />
             <Bubble bubbleIndex={ 1 } />
             <Bubble bubbleIndex={ 2 } />
             <Bubble bubbleIndex={ 3 } />
             <div className='flex flex-col space-y-4 !mt-0'>
-                <h2 className='text-black font-bold text-4xl mx-auto z-10'>Hello, I am</h2>
-                <h1 className={`${styles.gradientText} font-bold text-8xl mx-auto z-10`}>Eugene Tang</h1>
+                <motion.h2 className='text-black font-bold text-4xl mx-auto z-10'
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1}}
+                transition={{ duration: 2 }}
+                
+                >Hello, I am</motion.h2>
+                <motion.h1 className={`${styles.gradientText} font-bold text-8xl mx-auto z-10`}
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1}}
+                transition={{ duration: 2, delay: 1 }}
+                >Eugene Tang</motion.h1>
 
             </div>
            
-            <div className={`${ sourceCodePro.className } text-3xl z-10`}>
+            <motion.div className={`${ sourceCodePro.className } text-3xl z-10`}
+            initial={{ opacity: 0}}
+            animate={{ opacity: 1}}
+            transition={{ duration: 2, delay: 2 }}
+            
+            
+            
+            
+            
+            >
                 <h6>An aspiring
                     <span>
                         <Typewriter
@@ -34,7 +52,7 @@ function Intro() {
                         />
                 </span>
                 </h6>
-            </div>
+            </motion.div>
 
             {/* Animated Button */}
             <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-10'>

@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 import Bubble from './Bubble';
 import { useState, useEffect } from 'react';
 
-//Intro section
-function Intro() {
+//Hero section
+function Hero() {
     const [windowHeight, setWindowHeight] = useState(0);
 
     useEffect(() => {
@@ -30,19 +30,22 @@ function Intro() {
 
 
     return (
-        <div id="home" className='intro-div'>
+        <div id="hero" className='hero-div'>
+            {/* Bubbles */}
             <Bubble bubbleIndex={ 0 } />
             <Bubble bubbleIndex={ 1 } />
             <Bubble bubbleIndex={ 2 } />
             <Bubble bubbleIndex={ 3 } />
+
+            {/* Main header */}
             <div className='flex flex-col space-y-4 !mt-0'>
-                <motion.h2 className='text-black font-bold text-4xl mx-auto z-10'
+                <motion.h2 className='text-black font-bold text-2xl xs:text-3xl mx-auto md:text-4xl z-10'
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1}}
-                transition={{ duration: 2 }}
-                
-                >Hello, I am</motion.h2>
-                <motion.h1 className={`${styles.gradientText} font-bold text-8xl mx-auto z-10`}
+                transition={{ duration: 2 }}>
+                    Hello, I am
+                </motion.h2>
+                <motion.h1 className={`${styles.gradientText} font-bold text-5xl xs:text-6xl sm:text-7xl md:text-8xl mx-auto z-10`}
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1}}
                 transition={{ duration: 2, delay: 1 }}
@@ -50,7 +53,9 @@ function Intro() {
 
             </div>
            
-            <motion.div className={`${ sourceCodePro.className } text-3xl z-10`}
+
+           {/* Animated text */}
+            <motion.div className={`${ sourceCodePro.className } text-xl xs:text-2xl md:text-3xl z-10`}
             initial={{ opacity: 0}}
             animate={{ opacity: 1}}
             transition={{ duration: 2, delay: 2 }}
@@ -95,4 +100,4 @@ function Intro() {
     ) 
 }
 
-export default Intro;
+export default Hero;

@@ -21,6 +21,7 @@ const config: Config = {
         "design-purple": "#953EDA",
         "community-orange": "#DA923E",
         "light-gray": "#B6B6B6",
+        "dark-gray": "#656565",
         "dark-purple": "#0C0129"
       },
       animation: {

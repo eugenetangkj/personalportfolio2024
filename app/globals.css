@@ -46,9 +46,13 @@
     animation: blob 4.5s linear infinite;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
 
-    /* Hero div */
-    .hero-div {
+
+    /* Hero section */
+    .hero-section {
         @apply flex flex-col items-center justify-center mx-auto bg-white h-screen space-y-16;
     }
 

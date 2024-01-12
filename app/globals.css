@@ -1,27 +1,78 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('/components/styles.module.css');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@keyframes blob {
+    0% {
+      transform: translate(0, 100vh) scale(0);
+    }
+  
+    20% {
+      transform: translate(0, 80vh) scale(0.5);
+    }
+  
+    40% {
+      transform: translate(0, 60vh) scale(0.75);
+    }
+  
+    60% {
+      transform: translate(0, 40vh) scale(0.5);
+    }
+  
+    80% {
+      transform: translate(0, 20vh) scale(0.3);
+    }
+  
+    100% {
+      transform: translate(0, 0vh) scale(0.1);
+    }
 }
+@layer components {
+    /* Blob animations */
+    .animateBlob {
+        animation: blob 5s linear infinite;
+    }
+    
+    .animateBlobFast {
+    animation: blob 4s linear infinite;
+    }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+    .animateBlobFaster {
+    animation: blob 3s linear infinite;
+    }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    .animateBlobMedium {
+    animation: blob 4.5s linear infinite;
+    }
+
+
+    /* Intro div */
+    .intro-div {
+        @apply flex flex-col items-center justify-center mx-auto bg-white h-screen space-y-16;
+    }
+
+    /* Bubbles */
+    .bubble-zero {
+        @apply absolute top-0 ml-[-60%] md:ml-[-70%] lg:ml-[-90%] w-36 h-36 bg-purple-100 rounded-full blur-xl first-letter:opacity-70;
+        @apply animateBlobFast; 
+    }
+
+    .bubble-one {
+        @apply absolute top-0 ml-[-30%] md:ml-[-60%] w-36 h-36 bg-blue-100 rounded-full blur-xl first-letter:opacity-70;
+        @apply animateBlob;
+    }
+
+    .bubble-two {
+        @apply absolute top-0 mr-[-70%] md:mr-[-80%] lg:mr-[-90%] w-36 h-36 bg-pink-100 rounded-full blur-xl first-letter:opacity-70;
+        @apply animateBlobMedium;
+    }
+
+    .bubble-three {
+        @apply absolute top-0 mr-[-40%] md:mr-[-50%] w-36 h-36 bg-cyan-100 rounded-full blur-xl first-letter:opacity-70;
+        @apply animateBlobFaster;
+    }
+
+    
+  
 }

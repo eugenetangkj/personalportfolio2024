@@ -1,0 +1,9 @@
+@tailwind components;
+
+.gradientText {
+  background-image: linear-gradient(90deg, #3EA2DA, #953EDA, #DA923E);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding-bottom: 8px;
+}

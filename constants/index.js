@@ -107,7 +107,6 @@ export const techProjects = [
                 url: 'https://drive.google.com/file/d/1MleumkdFqX2PaIDkdod2K9Xsbv8X6CP_/view?usp=sharing',
             }
         ],
-        delay: "0.5s"
     },
     {
         title: 'Computer, Easy Lah!',
@@ -131,7 +130,6 @@ export const techProjects = [
             },
            
         ],
-        delay: "1s"
     },
     {
         title: 'neatnotes',
@@ -155,7 +153,6 @@ export const techProjects = [
             },
            
         ],
-        delay: "1.5s"
     },
     {
         title: 'InternBuddy',
@@ -175,7 +172,6 @@ export const techProjects = [
             },
            
         ],
-        delay: "2s"
     },
     {
         title: 'Finterest',
@@ -194,7 +190,6 @@ export const techProjects = [
                 url: 'https://finterest3216.vercel.app/'
             },
         ],
-        delay: "2.5s"
     },
     {
         title: 'mood',
@@ -213,7 +208,6 @@ export const techProjects = [
                 url: 'https://www.youtube.com/watch?v=1PuJjJNb6qI&feature=youtu.be'
             },
         ],
-        delay: "3s"
     },
     {
         title: 'Personal Portfolio 2023',
@@ -232,7 +226,6 @@ export const techProjects = [
                 url: 'https://personalportfolio2023-eugenetang.vercel.app/'
             },
         ],
-        delay: "3.5s"
     },
     {
         title: "ET's Planet",
@@ -251,7 +244,6 @@ export const techProjects = [
                 url: 'https://github.com/eugenetangkj/etplanet'
             },
         ],
-        delay: "4s"
     },
     {
         title: "BooBot",
@@ -270,7 +262,6 @@ export const techProjects = [
                 url: 'https://eugenetangkj.github.io/boobot/'
             },
         ],
-        delay: "4.5s"
     },
     {
         title: "MdNotes",
@@ -293,7 +284,6 @@ export const techProjects = [
                 url: 'https://www.figma.com/file/V9vrHPMETXE0PbabuL5yrH/MdNotes'
             }
         ],
-        delay: "5s"
     },
     {
         title: "Threads",
@@ -312,7 +302,6 @@ export const techProjects = [
                 url: 'https://threads-topaz-eta.vercel.app/'
             },
         ],
-        delay: "5.5s"
     },
     {
         title: "Multiplication Mania",
@@ -331,7 +320,6 @@ export const techProjects = [
                 url: 'https://multiplication-mania.netlify.app/'
             },
         ],
-        delay: "6s"
     },
 ];
 

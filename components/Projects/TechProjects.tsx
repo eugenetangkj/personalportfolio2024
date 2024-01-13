@@ -23,7 +23,6 @@ function TechProjects() {
                                 description={ techProject.description }
                                 techStack={ techProject.techStack }
                                 links={ techProject.links }
-                                delay= { techProject.delay }
                                 key={ techProject. title }
                             />
                         )

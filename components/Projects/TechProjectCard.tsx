@@ -10,6 +10,9 @@ import { GoVideo } from "react-icons/go";
 import { FiGithub } from "react-icons/fi";
 import { IoEarthSharp } from "react-icons/io5";
 
+import { useRef } from "react";
+import { useInView } from "framer-motion";
+
 
 interface Link {
     type: string;
@@ -23,7 +26,6 @@ interface TechProjectCardProps {
     description: string;
     techStack: string;
     links: Link[],
-    delay: string;
 }
 
 
@@ -34,10 +36,18 @@ function TechProjectCard({
     description,
     techStack,
     links,
-    delay,
 }: TechProjectCardProps) {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
+
     return (
-        <div className='max-w-lg lg:max-w-md bg-white border border-gray-200 rounded-lg shadow-lg md:fixedCardHeight'>
+        <div className='max-w-lg lg:max-w-md bg-white border border-gray-200 rounded-lg shadow-lg md:fixedCardHeight' ref={ ref } style={{
+            transform: isInView ? "none" : "translateX(-200px)",
+            opacity: isInView ? 1 : 0,
+            transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
+        }}
+>
             <img className="rounded-t-lg w-full" src={ imageUrl } alt={ title } style={{ "height": "200px" }} />
             
             <div className="p-5 space-y-4">

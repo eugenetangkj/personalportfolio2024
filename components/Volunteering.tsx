@@ -1,6 +1,6 @@
 "use client"
 
-import TimelineHorizontal from "./TimelineHorizontal";
+import TimelineVerticalVolunteer from "./TimelineVerticalVolunteer";
 
 //Volunteering section
 function Volunteering() {
@@ -15,7 +15,7 @@ function Volunteering() {
             </div>
 
             {/* Timeline */}
-            <TimelineHorizontal />
+            <TimelineVerticalVolunteer />
 
 
         </section>

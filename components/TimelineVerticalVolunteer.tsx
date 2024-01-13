@@ -6,7 +6,7 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { volunteeringExperiences } from "@/constants";
 
-function TimelineHorizontal() {
+function TimelineVerticalVolunteer() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
@@ -38,7 +38,7 @@ function TimelineHorizontal() {
                             </h3>
    
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ml-4">{ experience.date }</time>
-                            <ul className="mb-4 text-base font-normal text-dark-gray list-disc ml-4">
+                            <ul className="mb-4 text-base font-normal text-dark-gray list-disc ml-8">
                                 {
                                     experience.content.map((point) => {
                                         return (
@@ -69,4 +69,4 @@ function TimelineHorizontal() {
 
 }
 
-export default TimelineHorizontal;
+export default TimelineVerticalVolunteer;

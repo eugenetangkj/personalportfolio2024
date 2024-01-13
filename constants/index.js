@@ -295,7 +295,7 @@ export const techProjects = [
         award: "No Award",
         imageUrl: "/assets/projects/tech/threads.png",
         description:
-            "This a simplified clone of Meta's Threads application, built as an educational project. Post threads, comment on others' posts, and join communities to find like-minded individuals.",
+            "This is a simplified clone of Meta's Threads application, built as an educational project. Post threads, comment on others' posts, and join communities to find like-minded individuals.",
         techStack: 'Next.JS, MongoDB, Clerk, UploadThing, shadcn',
         links: [
             {

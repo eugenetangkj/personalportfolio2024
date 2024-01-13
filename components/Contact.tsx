@@ -7,12 +7,12 @@ import { TiSocialDribbble } from "react-icons/ti";
 //Contact section
 function Contact() {
     return (
-        <section id="contact" className='flex flex-col justify-center items-center space-y-16 mt-28 py-8 px-8 xl:px-8 2xl:px-12'>
+        <section id="contact" className='flex flex-col justify-center items-center space-y-16 mt-16 md:mt-28 py-8 px-8 xl:px-8 2xl:px-12'>
             {/* Title */}
             <div className='flex flex-col justify-center items-center 2xl:w-3/4 space-y-16 text-center'>
                 <div className='flex flex-col justify-center items-center space-y-4'>
                     <h6 className='title-label'>Contact</h6>
-                    <h2 className='title-heading'>Let&apos;s get in touch</h2>
+                    <h2 className='title-heading'>Let&apos;s get in touch.</h2>
                 </div>
 
                 <div className='flex flex-col space-y-6 justify-center items-center'>

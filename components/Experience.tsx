@@ -5,7 +5,7 @@ import TimelineVertical from "./TimelineVertical";
 //Experience section
 function Experience() {
     return (
-        <section id="experience" className='flex flex-col justify-center items-center space-y-16 mt-28 py-8 px-8 md:px-16'>
+        <section id="experience" className='flex flex-col justify-center items-center space-y-16 mt-16 md:mt-28 py-8 px-8 md:px-16'>
             {/* Title */}
             <div className='flex flex-col justify-center items-center 2xl:w-3/4 space-y-16 text-center'>
                 <div className='flex flex-col justify-center items-center space-y-4'>

@@ -74,20 +74,20 @@ function ProjectCard({
                     {
                         links.map((link) => {
                             return (
-                                <a href={ link.url } target="_blank" key={ link.type } className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:text-blue-700 duration-300">
+                                <a href={ link.url } target="_blank" key={ link.type } className="inline-flex items-center justify-center px-1 sm:px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:text-blue-700 duration-300">
                                     { link.type }
                                     {
                                         (link.type == 'Game')
-                                        ? <VscGame className='text-xl ml-2' /> 
+                                        ? <VscGame className='text-lg sm:text-xl ml-2' /> 
                                         : (link.type == 'Report')
-                                        ? <IoDocumentOutline className='text-xl ml-2' /> 
+                                        ? <IoDocumentOutline className='text-lg sm:text-xl ml-2' /> 
                                         : (link.type == 'Figma')
-                                        ? <FaFigma className='text-xl ml-2' /> 
+                                        ? <FaFigma className='text-lg sm:text-xl ml-2' /> 
                                         : (link.type == 'GitHub')
-                                        ? <FiGithub className='text-xl ml-2' /> 
+                                        ? <FiGithub className='text-lg sm:text-xl ml-2' /> 
                                         : (link.type == 'Video')
-                                        ? <GoVideo className='text-xl ml-2' />
-                                        : <IoEarthSharp className='text-xl ml-2' /> 
+                                        ? <GoVideo className='text-lg sm:text-xl ml-2' />
+                                        : <IoEarthSharp className='text-lg sm:text-xl ml-2' /> 
                                     }
                                 </a>
                             );

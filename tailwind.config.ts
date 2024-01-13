@@ -24,7 +24,13 @@ const config: Config = {
         "light-gray": "#B6B6B6",
         "dark-gray": "#656565",
         "dark-purple": "#0C0129",
-        "label-pink": "#DA3E9C"
+        "label-pink": "#DA3E9C",
+        "light-black": "#343434",
+
+        "violet": {
+          500: "#C891F4",
+          900: "#BA74F2",
+        }
       },
       animation: {
         blob: "blob 5s linear infinite",

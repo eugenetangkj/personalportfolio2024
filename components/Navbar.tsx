@@ -86,7 +86,7 @@ function Navbar() {
         closeMenu();
         const sectionElement = document.getElementById(sectionId);
 
-        const offset = (sectionId == 'about') ? 150 : (sectionId == 'experience' || "projects") ? 100 : 150;
+        const offset = (sectionId == 'about') ? 150 : 100;
 
 
         if (sectionElement) {

@@ -57,6 +57,13 @@
         @apply flex flex-col items-center justify-center mx-auto bg-white h-screen space-y-16;
     }
 
+    /* Navbar */
+    .transition-transform-slow {
+      transition-property: transform;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 750ms;
+    }
+
     /* Bubbles */
     .bubble-zero {
         @apply absolute top-0 ml-[-60%] md:ml-[-70%] lg:ml-[-90%] w-36 h-36 bg-purple-100 rounded-full blur-xl first-letter:opacity-70;
@@ -79,14 +86,21 @@
     }
 
 
+    /* Titles */
     .title-label {
-      @apply font-semibold text-base md:text-lg uppercase tracking-wide;
+      @apply font-semibold text-base md:text-lg uppercase tracking-wide text-light-black;
     }
 
     .title-heading {
-      @apply font-bold text-3xl xs:text-4xl md:text-5xl 2xl:text-6xl mx-auto;
+      @apply font-bold text-3xl xs:text-4xl md:text-5xl 2xl:text-6xl mx-auto text-light-black;
     }
 
+    .main-paragraph {
+      @apply text-base md:text-lg text-center text-dark-gray leading-relaxed  mx-4 sm:mx-auto sm:w-3/4;
+    }
+
+
+    /* Cards */
     .fixedTechCardHeight {
       height: 680px;
     }
@@ -101,6 +115,11 @@
 
     .fixedCardDescriptionHeightSmall {
       height: 120px;
+    }
+
+    /* Contact */
+    .social-link {
+      @apply text-[40px] text-gray-400 hover:text-violet-900 duration-300 cursor-pointer;
     }
 
 

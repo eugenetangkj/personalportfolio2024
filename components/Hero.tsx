@@ -43,14 +43,6 @@ function Hero() {
         }
     };
 
-
-
-
-
-
-    
-
-
     return (
         <section id="hero" className='hero-section'>
             {/* Bubbles */}
@@ -61,7 +53,7 @@ function Hero() {
 
             {/* Main header */}
             <div className='flex flex-col space-y-4 !mt-0'>
-                <motion.h2 className='text-black font-bold mx-auto text-2xl xs:text-3xl 2xl:text-4xl z-10'
+                <motion.h2 className='text-light-black font-bold mx-auto text-2xl xs:text-3xl 2xl:text-4xl z-10'
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1}}
                 transition={{ duration: 2 }}>

@@ -55,7 +55,7 @@ function ProjectCard({
                 <img className="rounded-t-lg w-full" src={ imageUrl } alt={ title } style={{ "height": "200px" }} />
                 
                 <div className="p-5 space-y-4">
-                <h5 className="mb-2 text-2xl font-semibold tracking-tight">{ title }</h5>
+                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900">{ title }</h5>
                 {
                     (award != 'No Award')
                     ? <div className='flex flex-row space-x-2 items-center'>

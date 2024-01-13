@@ -83,11 +83,13 @@ function Navbar() {
 
     //Account for header during transitioning
     const scrollToSection = (sectionId: string) => {
+        closeMenu();
         const sectionElement = document.getElementById(sectionId);
+
+        const offset = (sectionId == 'about') ? 150 : (sectionId == 'experience') ? 100 : 150;
 
 
         if (sectionElement) {
-            const offset = 150;
             const sectionTop = sectionElement.offsetTop - offset;
 
             window.scrollTo({
@@ -97,9 +99,7 @@ function Navbar() {
         }
     };
 
-
-
-
+  
 
 
     return (
@@ -149,7 +149,11 @@ function Navbar() {
                     menuLinks.map((link) => {
                         return (
                             <li key={ link.label }>
-                                <a href={ link.route } className="hover:text-gray-500 duration-300">{ link.label }</a>
+                                <a href={ link.route } className="hover:text-gray-500 duration-300" onClick={(e) => {
+                                    e.preventDefault();
+                                    scrollToSection(`${link.id }`);
+                                    }}>
+                                { link.label }</a>
                             </li> 
                         )
                     })

@@ -7,13 +7,13 @@ import { useInView } from "framer-motion";
 import { useRef } from 'react';
 
 
-//Hero section
+//About me section
 function About() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
     return (
-        <section id="about" className='flex flex-col justify-center items-center space-y-16 mt-16'>
+        <section id="about" className='flex flex-col justify-center items-center space-y-16 mt-28'>
             <div className='flex flex-col justify-center items-center 2xl:w-3/4 space-y-16 text-center'>
                 <div className='flex flex-col justify-center items-center space-y-4'>
                     <h6 className='title-label'>About Me</h6>

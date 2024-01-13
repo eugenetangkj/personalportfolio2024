@@ -5,6 +5,7 @@ const config: Config = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -22,7 +23,8 @@ const config: Config = {
         "community-orange": "#DA923E",
         "light-gray": "#B6B6B6",
         "dark-gray": "#656565",
-        "dark-purple": "#0C0129"
+        "dark-purple": "#0C0129",
+        "label-pink": "#DA3E9C"
       },
       animation: {
         blob: "blob 5s linear infinite",
@@ -55,6 +57,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }
 export default config

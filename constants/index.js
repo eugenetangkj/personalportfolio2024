@@ -15,6 +15,11 @@ export const menuLinks = [
         label: "Projects"
     },
     {
+        route: "#volunteering",
+        id: "volunteering",
+        label: "Volunteering"
+    },
+    {
         route:"#contact",
         id: "contact",
         label: "Contact"
@@ -397,4 +402,60 @@ export const designProjects = [
 
 
 
+]
+
+
+export const volunteeringExperiences = [
+    {
+        date: 'December 2023 - Present',
+        title: 'Volunteer at Family Central',
+        type: 'elderly',
+        isOngoing: true,
+        content:[
+            'Designed a workshop on Google Bard for senior adults',
+        ],
+        delay: "0.5s"
+    },
+    {
+        date: 'October 2022 - December 2022',
+        title: 'Mentor at CampusImpact',
+        type: 'teach',
+        isOngoing: false,
+        content:[
+            'Planned and executed academic and enrichment activities with a Primary 4 student',
+        ],
+        delay: "1s"
+    },
+    {
+        date: 'December 2021 - Present',
+        title: 'Volunteer at Work Live Digital',
+        type: 'elderly',
+        isOngoing: true,
+        content:[
+            'Curated booklets on basic computer usage',
+            'Facilitated computer classes for senior adults',
+        ],
+        delay: "1.5s"
+    },
+    {
+        date: 'February 2020 - October 2020',
+        title: 'Student Teacher at CDAC Singapore',
+        type: 'teach',
+        isOngoing: false,
+        content:[
+            'Gave academic support in the subjects of Mathematics and Science for a Primary 6 student',
+        ],
+        delay: "2s"
+    },
+    {
+        date: 'April 2017 - April 2018',
+        title: 'Organising Committee at Prison Fellowship Singapore',
+        type: 'organise',
+        isOngoing: false,
+        content:[
+            'Led a team of 5 to offer weekly tuition support and organise enrichment activities',
+            'Fund-raised $143.90 through sales of self-baked biscuits that were decorated by the beneficiary',
+        ],
+        delay: "2.5s"
+    },
 ]

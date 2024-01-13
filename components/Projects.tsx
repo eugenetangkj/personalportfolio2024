@@ -18,15 +18,9 @@ function Projects() {
             {/* Tech section */}
             <TechProjects />
  
-           
             {/* Design section */}
             <DesignProjects />
 
-            {/* Community section */}
-
-        
-            
-           
         </section>
     ) 
 }

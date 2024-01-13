@@ -3,13 +3,13 @@
 import ProjectCard from "./ProjectCard";
 import { techProjects } from "@/constants";
 
-//Tech projects with cards
-function TechProjects() {
+//Design projects with cards
+function DesignProjects() {
     return (
         <div className='flex flex-col self-start space-y-8 w-full items-center'>
-            <h2 className='font-semibold text-3xl 2xl:text-4xl text-tech-blue'>Coding Projects</h2>
+            <h2 className='font-semibold text-3xl 2xl:text-4xl text-design-purple'>Design Projects</h2>
                   
-            {/* Tech project cards */}
+            {/* Design project cards */}
             <div className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-x-16 gap-y-8 place-items-center'>
                 {/* Iterate through data */}
                 {
@@ -38,4 +38,4 @@ function TechProjects() {
     ) 
 }
 
-export default TechProjects
+export default DesignProjects;

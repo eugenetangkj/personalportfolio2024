@@ -19,7 +19,7 @@ interface Link {
     url: string;
 }
 
-interface TechProjectCardProps {
+interface ProjectCardProps {
     title: string;
     award: string;
     imageUrl: string;
@@ -29,14 +29,14 @@ interface TechProjectCardProps {
 }
 
 
-function TechProjectCard({
+function ProjectCard({
     title,
     award,
     imageUrl,
     description,
     techStack,
     links,
-}: TechProjectCardProps) {
+}: ProjectCardProps) {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
@@ -95,4 +95,4 @@ function TechProjectCard({
     );
 }
 
-export default TechProjectCard;
+export default ProjectCard;

@@ -1,6 +1,7 @@
 "use client"
 
 import TechProjects from "./Projects/TechProjects";
+import DesignProjects from "./Projects/DesignProjects";
 
 //Projects section
 function Projects() {
@@ -19,6 +20,7 @@ function Projects() {
  
            
             {/* Design section */}
+            <DesignProjects />
 
             {/* Community section */}
 

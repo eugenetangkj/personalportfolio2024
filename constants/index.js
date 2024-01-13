@@ -63,7 +63,8 @@ export const experiences = [
                 type: 'Figma',
                 url: 'https://www.figma.com/file/1qLkgNfX1tY87gBl1ytPa8/Project-Reporting-App?type=design&node-id=0%3A1&mode=design&t=79MzopOjf4ntEe8l-1'
             }
-        ]
+        ],
+        delay: "0.5s"
     },
 
     {
@@ -75,7 +76,8 @@ export const experiences = [
             'Provided guidance and technical know-how to 11 teams of Year 1 undergraduates for a 3-month long software engineering project',
             'Enabled all teams to complete the program with 3 teams achieving Artemis (Extreme), the highest level of achievement for Orbital teams',
         ],
-        links: []
+        links: [],
+        delay: "1s"
     },
 
 

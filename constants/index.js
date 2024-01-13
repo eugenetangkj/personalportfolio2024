@@ -85,18 +85,18 @@ export const techProjects = [
     {
         title: 'Shooting Portals',
         award: "Awarded with the Judge's Choice Award",
-        imagrUrl: "/assets/projects/tech/shooting-portals.png",
+        imageUrl: "/assets/projects/tech/shooting-portals.png",
         description:
-            "Shooting Portals is a PC 2D puzzle-based platformer. The game revolves around Pulse, an inventor residing in the Portal Galaxy. His dog, Orbit, accidentally entered into an unknown galaxy.Hence, it is up to you to rescue Orbit using Pulse's portal-based mechanics.",
+            "Shooting Portals is a PC 2D puzzle-based platformer. The game revolves around Pulse, an inventor residing in the Portal Galaxy. His dog, Orbit, accidentally entered into an unknown galaxy. Hence, it is up to you to rescue Orbit.",
         techStack: 'Unity, Microsoft Azure PlayFab',
         links: [
             {
-                type: 'Game',
-                url: 'https://play.unity.com/mg/other/webgl-builds-200053'
-            },
-            {
                 type: 'GitHub',
                 url: 'https://github.com/eugenetangkj/shooting-portals'
+            },
+            {
+                type: 'Game',
+                url: 'https://play.unity.com/mg/other/webgl-builds-200053'
             },
             {
                 type: 'Report',
@@ -112,18 +112,18 @@ export const techProjects = [
     {
         title: 'Computer, Easy Lah!',
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/cel.png",
+        imageUrl: "/assets/projects/tech/cel.png",
         description:
             "Computer, Easy Lah! is an initiative that provides an interactive learning platform for senior adults to recap and practice the content taught in computer classes. It is built for Work Live Digital, and is supported by partners such as Family Central and Chua Chu Kang IT Centre.",
         techStack: 'Next.JS, Figma',
         links: [
             {
-                type: 'Website',
-                url: 'https://www.cel.land/home'
-            },
-            {
                 type: 'GitHub',
                 url: 'https://github.com/eugenetangkj/computereasylah'
+            },
+            {
+                type: 'Website',
+                url: 'https://www.cel.land/home'
             },
             {
                 type: 'Report',
@@ -136,9 +136,9 @@ export const techProjects = [
     {
         title: 'neatnotes',
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/neatnotes.png",
+        imageUrl: "/assets/projects/tech/neatnotes.png",
         description:
-            "neatnotes is a notes-taking Android mobile application that is designed for users to easily create and manage their notes on the go. It has a simplistic yet functional interface, providing features such as user authentication (email and Google sign-in), notes-taking and PDF generation.",
+            "neatnotes is a notes-taking Android mobile application that is designed for users to easily create and manage their notes on the go. It has a simplistic yet functional interface, providing features such as user authentication, notes-taking and PDF generation.",
         techStack: 'Flutter, Firebase, Figma',
         links: [
             {
@@ -160,7 +160,7 @@ export const techProjects = [
     {
         title: 'InternBuddy',
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/internbuddy.png",
+        imageUrl: "/assets/projects/tech/internbuddy.png",
         description:
             "InternBuddy is a desktop application designed for Computing undergraduates to systematically track and manage their internship applications. It is available on the Windows, macOS and Linux operating systems.",
         techStack: 'Java, JavaFX, Jackson, JUnit5, TestFX',
@@ -180,18 +180,18 @@ export const techProjects = [
     {
         title: 'Finterest',
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/finterest.png",
+        imageUrl: "/assets/projects/tech/finterest.png",
         description:
             "Finterest is AI-powered financial news web app where you can dive deep into the world of finance. Chat with AI to gain deeper insights about financial articles, and generate summaries of articles if you are short of time.",
         techStack: 'Next.JS, Firebase, OpenAI, Figma',
         links: [
             {
-                type: 'Website',
-                url: 'https://finterest3216.vercel.app/'
-            },
-            {
                 type: 'GitHub',
                 url: 'https://github.com/qreoct/finterest'
+            },
+            {
+                type: 'Website',
+                url: 'https://finterest3216.vercel.app/'
             },
         ],
         delay: "2.5s"
@@ -199,7 +199,7 @@ export const techProjects = [
     {
         title: 'mood',
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/mood.png",
+        imageUrl: "/assets/projects/tech/mood.png",
         description:
             "mood is a personal journal web application that allows you to create/edit journal entries, upload images, meditate and view profile information. Start writing journal entries today!",
         techStack: 'HTML, CSS, Javascript, Django, SQLite',
@@ -218,45 +218,45 @@ export const techProjects = [
     {
         title: 'Personal Portfolio 2023',
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/personal-portfolio-2023.png",
+        imageUrl: "/assets/projects/tech/personal-portfolio-2023.png",
         description:
-            "My 2023 personal portfolio website, designed by myself and created using Tailwind CSS.",
+            "My 2023 personal portfolio website, designed by myself and created using Tailwind CSS. I went for a simplistic and clean look, and utilised Tailwind to create a responsive interface.",
         techStack: 'HTML, CSS, Javascript, Tailwind CSS',
         links: [
+            {
+                type: 'GitHub',
+                url: 'https://github.com/eugenetangkj/personalportfolio2023'
+            },
             {
                 type: 'Website',
                 url: 'https://personalportfolio2023-eugenetang.vercel.app/'
             },
-            {
-                type: 'GitHub',
-                url: 'https://github.com/eugenetangkj/personalportfolio2023'
-            }
         ],
         delay: "3.5s"
     },
     {
         title: "ET's Planet",
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/etplanet.png",
+        imageUrl: "/assets/projects/tech/etplanet.png",
         description:
-            "My 2022 personal portfolio website, made fully responsive through the usage of vanilla CSS's media queries.",
+            "My 2022 personal portfolio website, made fully responsive through the usage of vanilla CSS's media queries. The design mainly revolves around the concept of aliens/planets since ET is an acronym for both my name 'Eugene Tang' and extraterrestrials.",
         techStack: 'HTML, CSS, Javascript',
         links: [
+            {
+                type: 'GitHub',
+                url: 'https://github.com/eugenetangkj/personalportfolio2023'
+            },
             {
                 type: 'Website',
                 url: 'https://github.com/eugenetangkj/etplanet'
             },
-            {
-                type: 'GitHub',
-                url: 'https://github.com/eugenetangkj/personalportfolio2023'
-            }
         ],
         delay: "4s"
     },
     {
         title: "BooBot",
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/boobot.png",
+        imageUrl: "/assets/projects/tech/boobot.png",
         description:
             "BooBot is a text-based GUI task manager application that helps you to keep track of your tasks, saving time and ensuring that you are on track. With BooBot, you do not have to worry about missing any deadlines anymore.",
         techStack: 'Java, JavaFx, JUnit5',
@@ -275,18 +275,18 @@ export const techProjects = [
     {
         title: "MdNotes",
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/mdnotes.png",
+        imageUrl: "/assets/projects/tech/mdnotes.png",
         description:
             "MdNotes is a desktop web application that allows you to create and preview notes in Markdown. Your documents are saved to the cloud, allowing for cross-device access.",
         techStack: 'ReactJS, Firebase',
         links: [
             {
-                type: 'Website',
-                url: 'https://mdnotes-docs.netlify.app/'
-            },
-            {
                 type: 'GitHub',
                 url: 'https://github.com/eugenetangkj/mdnotes'
+            },
+            {
+                type: 'Website',
+                url: 'https://mdnotes-docs.netlify.app/'
             },
             {
                 type: 'Figma',
@@ -298,18 +298,18 @@ export const techProjects = [
     {
         title: "Threads",
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/threads.png",
+        imageUrl: "/assets/projects/tech/threads.png",
         description:
             "This a simplified clone of Meta's Threads application, built as an educational project. Post threads, comment on others' posts, and join communities to find like-minded individuals.",
         techStack: 'Next.JS, MongoDB, Clerk, UploadThing, shadcn',
         links: [
             {
-                type: 'Website',
-                url: 'https://threads-topaz-eta.vercel.app/'
-            },
-            {
                 type: 'GitHub',
                 url: 'https://github.com/eugenetangkj/threads'
+            },
+            {
+                type: 'Website',
+                url: 'https://threads-topaz-eta.vercel.app/'
             },
         ],
         delay: "5.5s"
@@ -317,18 +317,18 @@ export const techProjects = [
     {
         title: "Multiplication Mania",
         award: "No Award",
-        imagrUrl: "/assets/projects/tech/multiplication-mania.png",
+        imageUrl: "/assets/projects/tech/multiplication-mania.png",
         description:
             "Multiplication Mania is a simple multiplication game hosted on the web. You have to correctly answer 10 questions to obtain the Multiplication Crystal, a proof that one is good in multiplication.",
         techStack: 'ReactJS',
         links: [
             {
-                type: 'Website',
-                url: 'https://multiplication-mania.netlify.app/'
-            },
-            {
                 type: 'GitHub',
                 url: 'https://github.com/eugenetangkj/multiplication-mania'
+            },
+            {
+                type: 'Website',
+                url: 'https://multiplication-mania.netlify.app/'
             },
         ],
         delay: "6s"

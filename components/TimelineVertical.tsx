@@ -6,7 +6,6 @@ import { experiences } from '@/constants';
 
 import { IoDocumentOutline } from 'react-icons/io5';
 import { FaFigma } from 'react-icons/fa';
-import { IoEarthOutline } from 'react-icons/io5';
 
 import { useRef } from "react";
 import { useInView } from "framer-motion";

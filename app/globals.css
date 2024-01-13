@@ -86,6 +86,8 @@
       @apply font-bold text-3xl xs:text-4xl md:text-5xl 2xl:text-6xl mx-auto;
     }
 
-    
-  
+    .fixedCardHeight {
+      height: 680px;
+    }
+
 }

@@ -5,8 +5,8 @@
 </div>
 
 <br />
-This is my personal portfolio for the year 2024, created using Next.JS, Framer Motion and Flowbite. Similar to my previous portfolio, I went for a simple and aesthetic look. You can access the portfolio [here](https://eugenetangkj.com/) 😍
 
+This is my personal portfolio for the year 2024, created using Next.JS, Framer Motion and Flowbite. Similar to my previous portfolio, I went for a simple and aesthetic look. You can access the portfolio [here](https://www.eugenetangkj.com/) 😍
 
 ### Improvements from Previous Portfolio
 I have made several improvements for this portfolio as compared to my portfolio in 2023.

@@ -328,6 +328,7 @@ export const designProjects = [
     {
         title: 'ClosetLogue',
         award: "No Award",
+        imageUrl: "/assets/projects/design/closetlogue.png",
         description:
             "ClosetLogue is a mobile UX design project that provides a highly-customised interface to simplify the process of outfit selection for youths, such that dressing well can be hassle and stress-free.",
         techStack: 'Design Life Cycle, Balsamiq, Figma',
@@ -341,11 +342,11 @@ export const designProjects = [
                 url: 'https://project0902.wixsite.com/closetlogue'
             },
         ],
-        delay: "0.5s"
     },
     {
         title: 'CampusCollab',
         award: "No Award",
+        imageUrl: "/assets/projects/design/campuscollab.png",
         description:
             "CampusCollab is a UX design project revolving around a gamified mobile application that is designed to connect NUS students for efficient recruitment of participants for surveys and studies.",
         techStack: 'Design Life Cycle, Figma',
@@ -359,11 +360,11 @@ export const designProjects = [
                 url: 'https://drive.google.com/file/d/1sZXfgF9J-gjk8yYb53cxMJgppY1Nz8_-/view?usp=sharing'
             },
         ],
-        delay: "1s"
     },
     {
         title: 'ShareCar',
         award: "No Award",
+        imageUrl: "/assets/projects/design/sharecar.png",
         description:
             "ShareCar is a car sharing mobile UX design project that aims to connect car owners with potential customers while protecting the interests of both parties.",
         techStack: 'Design Life Cycle, Balsamiq, Figma',
@@ -377,21 +378,20 @@ export const designProjects = [
                 url: 'https://drive.google.com/file/d/1UBxyh1g8bX6E4rND1yOop-IeGyJmk6fH/view'
             },
         ],
-        delay: "1.5s"
     },
     {
         title: 'CampusVibe',
         award: "No Award",
+        imageUrl: "/assets/projects/design/campusvibe.png",
         description:
             "CampusVibe is a UX project revolving around a specialised platform dedicated to simplfying the process of organising and hosting virtual team-building sessions. It is targeted towards Singapore University students.",
-        techStack: 'Design Life Cycle, Balsamiq, Figma',
+        techStack: 'Design Life Cycle, Miro',
         links: [
             {
                 type: 'Report',
                 url: 'https://drive.google.com/file/d/1uPPm3-2hFveVWaJOQVpa12a2O6HaNTG1/view?usp=sharing'
             },
         ],
-        delay: "2s"
     },
 
 

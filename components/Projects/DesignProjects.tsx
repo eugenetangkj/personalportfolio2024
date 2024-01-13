@@ -1,7 +1,7 @@
 "use client"
 
 import ProjectCard from "./ProjectCard";
-import { techProjects } from "@/constants";
+import { designProjects } from "@/constants";
 
 //Design projects with cards
 function DesignProjects() {
@@ -13,26 +13,22 @@ function DesignProjects() {
             <div className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-x-16 gap-y-8 place-items-center'>
                 {/* Iterate through data */}
                 {
-                    techProjects.map((techProject) => {
+                    designProjects.map((designProject) => {
                         return (
                             <ProjectCard
-                                title={ techProject.title }
-                                award={ techProject.award }
-                                imageUrl={ techProject.imageUrl }
-                                description={ techProject.description }
-                                techStack={ techProject.techStack }
-                                links={ techProject.links }
-                                key={ techProject. title }
+                                type='design'
+                                title={ designProject.title }
+                                award={ designProject.award }
+                                imageUrl={ designProject.imageUrl }
+                                description={ designProject.description }
+                                techStack={ designProject.techStack }
+                                links={ designProject.links }
+                                key={ designProject.title }
                             />
                         )
                     })
                 }
-
-
-
-
             </div>
-            
 
         </div>
     ) 

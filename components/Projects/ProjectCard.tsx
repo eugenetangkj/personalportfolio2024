@@ -20,6 +20,7 @@ interface Link {
 }
 
 interface ProjectCardProps {
+    type: string;
     title: string;
     award: string;
     imageUrl: string;
@@ -30,6 +31,7 @@ interface ProjectCardProps {
 
 
 function ProjectCard({
+    type,
     title,
     award,
     imageUrl,
@@ -42,15 +44,17 @@ function ProjectCard({
 
 
     return (
-        <div className='max-w-lg lg:max-w-md bg-white border border-gray-200 rounded-lg shadow-lg md:fixedCardHeight' ref={ ref } style={{
-            transform: isInView ? "none" : "translateX(-200px)",
-            opacity: isInView ? 1 : 0,
-            transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
-        }}
->
-            <img className="rounded-t-lg w-full" src={ imageUrl } alt={ title } style={{ "height": "200px" }} />
-            
-            <div className="p-5 space-y-4">
+        <div className={`max-w-lg lg:max-w-md bg-white border border-gray-200 rounded-lg shadow-lg
+            ${ type == 'tech' ? 'md:fixedTechCardHeight': 'md:fixedDesignCardHeight'}`} ref={ ref }
+            style={{
+                transform: isInView ? "none" : "translateX(-200px)",
+                opacity: isInView ? 1 : 0,
+                transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
+            }}>
+
+                <img className="rounded-t-lg w-full" src={ imageUrl } alt={ title } style={{ "height": "200px" }} />
+                
+                <div className="p-5 space-y-4">
                 <h5 className="mb-2 text-2xl font-semibold tracking-tight">{ title }</h5>
                 {
                     (award != 'No Award')
@@ -62,7 +66,7 @@ function ProjectCard({
                 }
                 
                 
-                <p className="mb-3 font-normal text-dark-gray leading-relaxed text-sm md:text-base" style={{ "height": "180px" }}>{ description }</p>
+                <p className="mb-3 font-normal text-dark-gray leading-relaxed text-sm md:text-base xs:fixedCardDescriptionHeightLarge sm:fixedCardDescriptionHeightSmall md:fixedCardDescriptionHeightLarge">{ description }</p>
 
                 <h6 className={`text-label-pink ${ sourceCodePro.className } text-sm md:text-sm`}  style={{ "height": "40px" }}>{ techStack }</h6>
 

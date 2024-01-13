@@ -16,6 +16,7 @@ function TechProjects() {
                     techProjects.map((techProject) => {
                         return (
                             <ProjectCard
+                                type='tech'
                                 title={ techProject.title }
                                 award={ techProject.award }
                                 imageUrl={ techProject.imageUrl }

@@ -87,8 +87,21 @@
       @apply font-bold text-3xl xs:text-4xl md:text-5xl 2xl:text-6xl mx-auto;
     }
 
-    .fixedCardHeight {
+    .fixedTechCardHeight {
       height: 680px;
     }
+
+    .fixedDesignCardHeight {
+      height: 600px;
+    }
+
+    .fixedCardDescriptionHeightLarge {
+      height: 180px;
+    }
+
+    .fixedCardDescriptionHeightSmall {
+      height: 120px;
+    }
+
 
 }

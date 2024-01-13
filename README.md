@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Personal Portfolio 2024
 
-## Getting Started
+<img src="public/assets/readme-graphic.png" width="700" />
 
-First, run the development server:
+This is my personal portfolio for the year 2024, created using Next.JS, Framer Motion and Flowbite. Similar to my previous portfolio, I went for a simple and aesthetic look. 😍
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Improvements from Previous Portfolio
+I have made several improvements for this portfolio as compared to my portfolio in 2023.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**1. Tech Stack and Extensibility of Code**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+My portfolio in 2023 used pure Tailwind CSS, and I hard-coded the components. This is non-ideal, because if I had to make a change to the styling for one of the components, I would have to copy and paste the changes to all the other affected components.
 
-## Learn More
+Thus, by using a React-based framework for this new portfolio, I have made my code more extensible. Instead of hard-coding and duplicating the same components, I abstracted out the data into a `index.js` file. Then, I created a component, and mapped my data to create multiple instances of the component. Also, I abstracted out repeated stylings into the `globals.css` file. Thus, when changes are required, I would only need to make changes to a single location instead of having to duplicate them. To add new items, I just need to insert data into the `index.js` file. Much simpler now!
 
-To learn more about Next.js, take a look at the following resources:
+**2. Animations**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This was the first time I explored Framer Motion, and I used it to create simple fade-in/fade out and movement animations to my components. There's still a long way to go, but it is a great start to creating animated websites! 😙
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+**3. Flowbite**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Previously, I had always created my own components. However, I took this opportunity to explore Flowbite, a component system built on Tailwind CSS which offers customisable UI components. This made development much faster, and I could easily integrate elements such as timelines and cards into my website. 👍

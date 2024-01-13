@@ -57,7 +57,7 @@ export const experiences = [
             'Co-built a full-stack project management system for automation of report generation, reducing the number of platforms needed from 3 to 1',
             'Designed hi-fidelity prototype for the mobile application with Figma and implemented it with Flutter',
             'Created a web admin dashboard with HTML, CSS and JavaScript',
-            'Built APIs using PHP Laravel  connect to MySQL database',
+            'Built APIs using PHP Laravel for connection with a MySQL database',
         ],
         links: [
             {
@@ -183,7 +183,7 @@ export const techProjects = [
         award: "No Award",
         imageUrl: "/assets/projects/tech/finterest.png",
         description:
-            "Finterest is AI-powered financial news web app where you can dive deep into the world of finance. Chat with AI to gain deeper insights about financial articles, and generate summaries of articles if you are short of time.",
+            "Finterest is an AI-powered financial news web app where you can dive deep into the world of finance. Chat with AI to gain deeper insights about financial articles, and generate summaries of articles if you are short of time.",
         techStack: 'Next.JS, Firebase, OpenAI, Figma',
         links: [
             {
@@ -206,7 +206,7 @@ export const techProjects = [
         links: [
             {
                 type: 'GitHub',
-                url: 'https://github.com/eugenetangkj/mood.png'
+                url: 'https://github.com/eugenetangkj/mood'
             },
             {
                 type: 'Video',
@@ -242,11 +242,11 @@ export const techProjects = [
         links: [
             {
                 type: 'GitHub',
-                url: 'https://github.com/eugenetangkj/personalportfolio2023'
+                url: 'https://github.com/eugenetangkj/etplanet'
             },
             {
                 type: 'Website',
-                url: 'https://github.com/eugenetangkj/etplanet'
+                url: 'https://eugenetangkj.github.io/etplanet/'
             },
         ],
     },
@@ -389,7 +389,7 @@ export const designProjects = [
         award: "No Award",
         imageUrl: "/assets/projects/design/campusvibe.png",
         description:
-            "CampusVibe is a UX project revolving around a specialised platform dedicated to simplfying the process of organising and hosting virtual team-building sessions. It is targeted towards Singapore University students.",
+            "CampusVibe is a UX project revolving around a specialised platform dedicated to simplifying the process of organising and hosting virtual team-building sessions. It is targeted towards Singapore University students.",
         techStack: 'Design Life Cycle, Miro',
         links: [
             {

@@ -1,8 +1,10 @@
 ## Personal Portfolio 2024
 
-<img src="public/assets/readme-graphic.png" width="700" />
+<div align="center">
+    <img src="public/assets/readme-graphic.png" width="700" />
+</div>
 
-This is my personal portfolio for the year 2024, created using Next.JS, Framer Motion and Flowbite. Similar to my previous portfolio, I went for a simple and aesthetic look. 😍
+This is my personal portfolio for the year 2024, created using Next.JS, Framer Motion and Flowbite. Similar to my previous portfolio, I went for a simple and aesthetic look. You can access the portfolio [here](https://eugenetangkj.com/) 😍
 
 
 ### Improvements from Previous Portfolio

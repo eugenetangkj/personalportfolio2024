@@ -90,7 +90,7 @@ function Hero() {
                             cursorStyle='_'
                             typeSpeed={70}
                             deleteSpeed={50}
-                            delaySpeed={1000}
+                            delaySpeed={1500}
                             loop={0}  
                         />
                 </span>

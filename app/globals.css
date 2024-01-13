@@ -77,6 +77,15 @@
         @apply animateBlobFaster;
     }
 
+
+    .title-label {
+      @apply font-semibold text-base md:text-lg uppercase tracking-wide;
+    }
+
+    .title-heading {
+      @apply font-bold text-3xl xs:text-4xl md:text-5xl 2xl:text-6xl mx-auto;
+    }
+
     
   
 }

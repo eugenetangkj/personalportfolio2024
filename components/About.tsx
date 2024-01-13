@@ -16,8 +16,8 @@ function About() {
         <section id="about" className='flex flex-col justify-center items-center space-y-16 mt-16'>
             <div className='flex flex-col justify-center items-center 2xl:w-3/4 space-y-16 text-center'>
                 <div className='flex flex-col justify-center items-center space-y-4'>
-                    <h6 className='font-semibold text-base md:text-lg uppercase tracking-wide'>About Me</h6>
-                    <h2 className='font-bold text-3xl xs:text-4xl md:text-5xl 2xl:text-6xl mx-auto' ref={ref}>It&apos;s all about making an <span className={`${styles.gradientText}`}>impact.</span></h2>
+                    <h6 className='title-label'>About Me</h6>
+                    <h2 className='title-heading' ref={ref}>It&apos;s all about making an <span className={`${styles.gradientText}`}>impact.</span></h2>
                 </div>
                 <p className='text-base md:text-lg text-center text-dark-gray leading-relaxed w-4/5 mx-4 sm:mx-auto sm:w-3/4'>I am a penultimate Computer Science undergraduate at the National University of Singapore, passionate about leveraging technology to create user-centric digital products with a meaningful impact.</p>
             </div>

@@ -112,7 +112,7 @@ function Navbar() {
                 scrollToSection('hero');
                 }}
             >
-                <Image src='/assets/logo.png' alt="Logo" width={50} height={50} />
+                <Image src='/assets/logo.png' alt="Logo" width={50} height={50} className='ml-8' />
             </a>
 
             {/* Desktop main menu */}

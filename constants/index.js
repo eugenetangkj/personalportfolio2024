@@ -30,7 +30,7 @@ export const values = [
     {
         label: "Tech",
         imageSource: "/assets/icons/about-tech.png",
-        content: "I specialize in software engineering and database systems, with experience in web, app and game development.",
+        content: "I specialize in software engineering, with experience in web, app and game development.",
         delay: "0.5s"
     },
     {

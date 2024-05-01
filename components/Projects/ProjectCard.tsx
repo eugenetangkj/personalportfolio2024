@@ -8,6 +8,7 @@ import { FaFigma } from 'react-icons/fa';
 import { VscGame } from "react-icons/vsc";
 import { GoVideo } from "react-icons/go";
 import { FiGithub } from "react-icons/fi";
+import { PiWindowsLogo, PiSlideshowLight } from "react-icons/pi";
 import { IoEarthSharp } from "react-icons/io5";
 
 import { useRef } from "react";
@@ -87,6 +88,10 @@ function ProjectCard({
                                         ? <FiGithub className='text-lg sm:text-xl ml-2' /> 
                                         : (link.type == 'Video')
                                         ? <GoVideo className='text-lg sm:text-xl ml-2' />
+                                        : (link.type == 'Windows')
+                                        ? <PiWindowsLogo className='text-lg sm:text-xl ml-2' />
+                                        : (link.type == 'Slides')
+                                        ? <PiSlideshowLight className='text-lg sm:text-xl ml-2' />
                                         : <IoEarthSharp className='text-lg sm:text-xl ml-2' /> 
                                     }
                                 </a>

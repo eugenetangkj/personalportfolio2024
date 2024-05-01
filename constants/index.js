@@ -137,6 +137,29 @@ export const techProjects = [
         ],
     },
     {
+        title: 'ITS Automated Testing Engine',
+        award: "No Award",
+        imageUrl: "/assets/projects/tech/automated-testing-engine.png",
+        description:
+            "This is an automated testing tool that uses black box testing to test the Intelligent Tutoring System (ITS) developed at the Programming Languages and Software Engineering lab at School of Computing, National University of Singapore. The tool revolves around metamorphic testing, modifying base programs into semantically equivalent ones for bug detection.",
+        techStack: 'Python, PyTest, OpenAI, Docker',
+        links: [
+            {
+                type: 'GitHub',
+                url: 'https://github.com/eugenetangkj/automated-testing-engine'
+            },
+            {
+                type: 'Report',
+                url: 'https://drive.google.com/file/d/1joECPLurtMKJaCMSh3EGzQ-k1OD-6axp/view?usp=sharing'
+            },
+            {
+                type: 'Slides',
+                url: 'https://drive.google.com/file/d/1cQyXycC204YvFOlOkbM2NV0cHbpeQs4T/view?usp=sharing'
+            },
+           
+        ],
+    },
+    {
         title: 'neatnotes',
         award: "No Award",
         imageUrl: "/assets/projects/tech/neatnotes.png",
@@ -174,6 +197,33 @@ export const techProjects = [
             {
                 type: 'Website',
                 url: 'https://ay2223s2-cs2103t-t14-3.github.io/tp/'
+            },
+           
+        ],
+    },
+    {
+        title: 'Roar of the Dinosaur',
+        award: "No Award",
+        imageUrl: "/assets/projects/tech/roar-of-the-dinosaur.png",
+        description:
+            "Help Rex, the leader of the dinosaurs, save the Dinosaur Galaxy from an incoming meteor. Use his unique platform-spawning mechanics to collect celestial stones across 4 differently-themed galaxies in order to stop the meteor.",
+        techStack: 'GameMaker',
+        links: [
+            {
+                type: 'Game',
+                url: 'https://gx.games/games/rryabp/roar-of-the-dinosaur/tracks/7ad14fa6-402a-4c27-9233-2eacb1d1305a/'
+            },
+            {
+                type: 'Windows',
+                url: 'https://drive.google.com/file/d/1II9ysWtYbrSGd8MeHqiSmrUUTxIs5cSU/view?usp=sharing'
+            },
+            {
+                type:'Video',
+                url:'https://youtu.be/CWsUNjrUly8'
+            },
+            {
+                type: 'Report',
+                url: 'https://drive.google.com/file/d/1wYb7FbXSC6W-Wh4Q7zeqfiAHVOrmdi1y/view?usp=sharing'
             },
            
         ],
@@ -407,12 +457,13 @@ export const designProjects = [
 
 export const volunteeringExperiences = [
     {
-        date: 'December 2023 - Present',
+        date: 'December 2023 - February 2024',
         title: 'Volunteer at Family Central',
         type: 'elderly',
-        isOngoing: true,
+        isOngoing: false,
         content:[
-            'Designed a workshop on Google Bard for senior adults',
+            'Designed and led a workshop on Google Gemini for 80 senior adults',
+            'Received a letter of affirmation from Family Central'
         ],
         delay: "0.5s"
     },

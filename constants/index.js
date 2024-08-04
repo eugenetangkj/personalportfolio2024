@@ -240,7 +240,7 @@ export const techProjects = [
         imageUrl: "/assets/projects/tech/wld-website.png",
         description:
             "A brand new website for Work Live Digital, a social impact initiative that provides free basic computer workshops to young seniors above 50 and connects them to opportunities to further their skills after completing the workshops.",
-        techStack: 'Next.JS, Tailwind CSS, Flowbite',
+        techStack: 'Next.JS, Tailwind CSS, Flowbite, Figma',
         links: [
             {
                 type: 'Website',

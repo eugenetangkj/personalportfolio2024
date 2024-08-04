@@ -139,6 +139,10 @@ export const techProjects = [
             {
                 type: 'Video',
                 url: 'https://drive.google.com/file/d/1MleumkdFqX2PaIDkdod2K9Xsbv8X6CP_/view?usp=sharing',
+            },
+            {
+                type: 'Award',
+                url: 'https://credentials.nus.edu.sg/9a5838fc-ea3e-4a9c-a523-dce0334166d7'
             }
         ],
     },
@@ -170,7 +174,7 @@ export const techProjects = [
         award: "No Award",
         imageUrl: "/assets/projects/tech/automated-testing-engine.png",
         description:
-            "This is an automated testing tool that uses black box testing to test the Intelligent Tutoring System (ITS) developed at the Programming Languages and Software Engineering lab at School of Computing, National University of Singapore. The tool revolves around metamorphic testing, modifying base programs into semantically equivalent ones for bug detection.",
+            "This is an automated testing tool that uses black box testing to test the Intelligent Tutoring System (ITS) developed at the Programming Languages and Software Engineering lab at School of Computing, NUS. It uses metamorphic testing, modifying base programs into semantically equivalent ones for bug detection.",
         techStack: 'Python, PyTest, OpenAI, Docker',
         links: [
             {
@@ -228,6 +232,20 @@ export const techProjects = [
                 url: 'https://ay2223s2-cs2103t-t14-3.github.io/tp/'
             },
            
+        ],
+    },
+    {
+        title: 'Work Live Digital Website',
+        award: "No Award",
+        imageUrl: "/assets/projects/tech/wld-website.png",
+        description:
+            "A brand new website for Work Live Digital, a social impact initiative that provides free basic computer workshops to young seniors above 50 and connects them to opportunities to further their skills after completing the workshops.",
+        techStack: 'Next.JS, Tailwind CSS, Flowbite',
+        links: [
+            {
+                type: 'Website',
+                url: 'https://worklivedigital.vercel.app/'
+            },
         ],
     },
     {
@@ -514,6 +532,7 @@ export const volunteeringExperiences = [
         content:[
             'Curated booklets on basic computer usage',
             'Facilitated computer classes for senior adults',
+            'Built a website for Work Live Digital'
         ],
         delay: "1.5s"
     },

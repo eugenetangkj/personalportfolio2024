@@ -7,7 +7,7 @@ import { IoDocumentOutline } from 'react-icons/io5';
 import { FaFigma } from 'react-icons/fa';
 import { VscGame } from "react-icons/vsc";
 import { GoVideo } from "react-icons/go";
-import { FiGithub } from "react-icons/fi";
+import { FiAward, FiGithub } from "react-icons/fi";
 import { PiWindowsLogo, PiSlideshowLight } from "react-icons/pi";
 import { IoEarthSharp } from "react-icons/io5";
 
@@ -92,6 +92,8 @@ function ProjectCard({
                                         ? <PiWindowsLogo className='text-lg sm:text-xl ml-2' />
                                         : (link.type == 'Slides')
                                         ? <PiSlideshowLight className='text-lg sm:text-xl ml-2' />
+                                        : (link.type == 'Award')
+                                        ? <FiAward className='text-lg sm:text-xl ml-2' />
                                         : <IoEarthSharp className='text-lg sm:text-xl ml-2' /> 
                                     }
                                 </a>

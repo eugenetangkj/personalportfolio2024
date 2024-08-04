@@ -19,7 +19,7 @@ function About() {
                     <h6 className='title-label'>About Me</h6>
                     <h2 className='title-heading' ref={ref}>It&apos;s all about making an <span className={`${styles.gradientText}`}>impact.</span></h2>
                 </div>
-                <p className='main-paragraph'>I am a penultimate Computer Science undergraduate at the National University of Singapore, passionate about leveraging technology to create user-centric digital products with a meaningful impact.</p>
+                <p className='main-paragraph'>I am a final year Computer Science undergraduate at the National University of Singapore, passionate about leveraging technology to create user-centric digital products with a meaningful impact.</p>
             </div>
 
             {/* Three circle meaning */}

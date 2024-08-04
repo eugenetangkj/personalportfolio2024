@@ -9,6 +9,8 @@ import { FaFigma } from 'react-icons/fa';
 
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+import { AiOutlineSmile } from 'react-icons/ai';
+import { FiAward } from 'react-icons/fi';
 
 //Timeline component for experience
 function TimelineVertical() {
@@ -57,15 +59,19 @@ function TimelineVertical() {
                                         }
                                     </ul>
                 
-                                    <div className='space-x-4'>
+                                    <div className='flex flex-col space-y-2 sm:space-y-0 sm:flex-row sm:space-x-4'>
                                         {
                                             experience.links.map((link) => {
                                                 return (
-                                                    <a href={ link.url } target="_blank" key= { link.type } className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:text-blue-700 duration-300">
+                                                    <a href={ link.url } target="_blank" key= { link.type } className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:text-blue-700 duration-300 w-fit">
                                                         { link.type }
                                                         {
                                                             (link.type == 'Report')
                                                             ? <IoDocumentOutline className='text-xl ml-2' />
+                                                            : (link.type == 'Recommendation' || link.type == 'Testimonial')
+                                                            ? <AiOutlineSmile className='text-xl ml-2' />
+                                                            : (link.type == 'Award')
+                                                            ? <FiAward className='text-xl ml-2' />
                                                             : <FaFigma className='text-xl ml-2' />
                                                         }
                                                     </a>

@@ -49,6 +49,26 @@ export const values = [
 
 export const experiences = [
     {
+        date: 'May 2024 - August 2024',
+        title: 'Information Technology Developer Intern at CPF Board',
+        award: 'Received a testimonial from the Senior Deputy Director',
+        techStack: 'Java, Java Spring, JUnit, IBM DB2, Data Studio, RTC Jazz, Jenkins, SoapUI',
+        content:[
+            'Contributed to the Special Account closure build at Retirement Decumulation Systems Department',
+            'Amended 6 services for 55 Withdrawal using PayNow to accommodate changes in logic and computation',
+            'Developed 3 APIs for a new system aimed at facilitating the withdrawal of new Retirement Account inflows for eligible members',
+            "Updated the backend logic for a user interface (UI) screen used in CPF Board's internal business portal",
+            'Created 3 batch jobs to verify the validity of account numbers for CPF accounts and the eligibility of members for a valid Retirement Account',
+        ],
+        links: [
+            {
+                type: 'Testimonial',
+                url: 'https://drive.google.com/file/d/1Ig-5dhbEmFXJIj97JXCICiSPIsbkazNz/view?usp=sharing'
+            },
+        ],
+        delay: "0.5s"
+    },
+    {
         date: 'May 2023 - August 2023',
         title: 'Information Technology Intern at CBM Pte Ltd',
         award: 'Received a recommendation letter from the Chief Technology Officer',
@@ -65,11 +85,15 @@ export const experiences = [
                 url: 'https://drive.google.com/file/d/1OVaX2yEKCLlXgbeOe2o8GBRRkmyf6O1T/view?usp=sharing'
             },
             {
+                type: 'Recommendation',
+                url: 'https://drive.google.com/file/d/1qgbSu7-iCL_WJuqpfvfZKZw84qxV5hGj/view?usp=sharing'
+            },
+            {
                 type: 'Figma',
                 url: 'https://www.figma.com/file/1qLkgNfX1tY87gBl1ytPa8/Project-Reporting-App?type=design&node-id=0%3A1&mode=design&t=79MzopOjf4ntEe8l-1'
             }
         ],
-        delay: "0.5s"
+        delay: "1s"
     },
 
     {
@@ -81,8 +105,13 @@ export const experiences = [
             'Provided guidance and technical know-how to 11 teams of Year 1 undergraduates for a 3-month long software engineering project',
             'Enabled all teams to complete the program with 3 teams achieving Artemis (Extreme), the highest level of achievement for Orbital teams',
         ],
-        links: [],
-        delay: "1s"
+        links: [
+            {
+                type: 'Award',
+                url: 'https://credentials.nus.edu.sg/399b9cca-a52f-4630-9c98-139f631bf743'
+            }
+        ],
+        delay: "1.5s"
     },
 ]
 

@@ -57,7 +57,7 @@ export const experiences = [
             'Contributed to the Special Account closure build at Retirement Decumulation Systems Department',
             'Amended 6 services for 55 Withdrawal using PayNow to accommodate changes in logic and computation',
             'Developed 3 APIs for a new system aimed at facilitating the withdrawal of new Retirement Account inflows for eligible members',
-            "Updated the backend logic for a user interface (UI) screen used in CPF Board's internal business portal",
+            "Updated the backend logic for a UI screen used in CPF Board's internal business portal",
             'Created 3 batch jobs to verify the validity of account numbers for CPF accounts and the eligibility of members for a valid Retirement Account',
         ],
         links: [

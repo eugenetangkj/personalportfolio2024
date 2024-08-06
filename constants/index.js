@@ -71,7 +71,7 @@ export const experiences = [
     {
         date: 'May 2023 - August 2023',
         title: 'Information Technology Intern at CBM Pte Ltd',
-        award: 'Received a recommendation letter from the Chief Technology Officer',
+        award: 'Received a testimonial from the Chief Technology Officer',
         techStack: 'Flutter, PHP Laravel, Voyager, HTML, CSS, Javascript, jQuery, MySQL, Figma',
         content:[
             'Co-built a full-stack project management system for automation of report generation, reducing the number of platforms needed from 3 to 1',
@@ -85,8 +85,8 @@ export const experiences = [
                 url: 'https://drive.google.com/file/d/1OVaX2yEKCLlXgbeOe2o8GBRRkmyf6O1T/view?usp=sharing'
             },
             {
-                type: 'Recommendation',
-                url: 'https://drive.google.com/file/d/1qgbSu7-iCL_WJuqpfvfZKZw84qxV5hGj/view?usp=sharing'
+                type: 'Testimonial',
+                url: 'https://drive.google.com/file/d/1JErUjBbBnqrAHjo04Hc_KzrbOioeU0GU/view?usp=sharing'
             },
             {
                 type: 'Figma',

@@ -10,7 +10,7 @@ function DesignProjects() {
             <h2 className='font-semibold text-3xl 2xl:text-4xl text-design-purple'>Design Projects</h2>
                   
             {/* Design project cards */}
-            <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-x-16 gap-y-8 place-items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-x-16 gap-y-8 place-items-center'>
                 {/* Iterate through data */}
                 {
                     designProjects.map((designProject) => {

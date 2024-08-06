@@ -174,7 +174,7 @@ export const techProjects = [
         award: "No Award",
         imageUrl: "/assets/projects/tech/automated-testing-engine.png",
         description:
-            "This is an automated testing tool that uses black box testing to test the Intelligent Tutoring System (ITS) developed at the Programming Languages and Software Engineering lab at School of Computing, National University of Singapore. It uses metamorphic testing, modifying base programs into semantically equivalent ones for bug detection.",
+            "This is an automated testing tool that uses black box testing to test the Intelligent Tutoring System (ITS) developed at the Programming Languages and Software Engineering lab at School of Computing, NUS. It uses metamorphic testing, modifying base programs into semantically equivalent ones for bug detection.",
         techStack: 'Python, PyTest, OpenAI, Docker',
         links: [
             {

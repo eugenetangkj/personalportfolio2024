@@ -67,7 +67,7 @@ function ProjectCard({
                 }
                 
                 
-                <p className="mb-3 font-normal text-dark-gray leading-relaxed text-sm md:text-base xs:fixedCardDescriptionHeightLarge sm:fixedCardDescriptionHeightSmall md:fixedCardDescriptionHeightLarge">{ description }</p>
+                <p className="mb-3 font-normal text-dark-gray leading-relaxed text-sm lg:text-base xs:fixedCardDescriptionHeightLarge sm:fixedCardDescriptionHeightSmall md:fixedCardDescriptionHeightLarge">{ description }</p>
 
                 <h6 className={`text-label-pink ${ sourceCodePro.className } text-sm md:text-sm`}  style={{ "height": "40px" }}>{ techStack }</h6>
 

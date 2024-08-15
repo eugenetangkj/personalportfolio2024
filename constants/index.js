@@ -72,7 +72,7 @@ export const experiences = [
         date: 'May 2023 - August 2023',
         title: 'Information Technology Intern at CBM Pte Ltd',
         award: 'Received a testimonial from the Chief Technology Officer',
-        techStack: 'Flutter, PHP Laravel, Voyager, HTML, CSS, Javascript, jQuery, MySQL, Figma',
+        techStack: 'Flutter, PHP Laravel, Voyager, HTML, CSS, JavaScript, jQuery, MySQL, Figma',
         content:[
             'Co-built a full-stack project management system for automation of report generation, reducing the number of platforms needed from 3 to 1',
             'Designed hi-fidelity prototype for the mobile application with Figma and implemented it with Flutter',
@@ -299,7 +299,7 @@ export const techProjects = [
         imageUrl: "/assets/projects/tech/mood.png",
         description:
             "mood is a personal journal web application that allows you to create/edit journal entries, upload images, meditate and view profile information. Start writing journal entries today!",
-        techStack: 'HTML, CSS, Javascript, Django, SQLite',
+        techStack: 'HTML, CSS, JavaScript, Django, SQLite',
         links: [
             {
                 type: 'GitHub',
@@ -317,7 +317,7 @@ export const techProjects = [
         imageUrl: "/assets/projects/tech/personal-portfolio-2023.png",
         description:
             "My 2023 personal portfolio website, designed by myself and created using Tailwind CSS. I went for a simplistic and clean look, and utilised Tailwind to create a responsive interface.",
-        techStack: 'HTML, CSS, Javascript, Tailwind CSS',
+        techStack: 'HTML, CSS, JavaScript, Tailwind CSS',
         links: [
             {
                 type: 'GitHub',
@@ -335,7 +335,7 @@ export const techProjects = [
         imageUrl: "/assets/projects/tech/etplanet.png",
         description:
             "My 2022 personal portfolio website, made fully responsive through the usage of vanilla CSS's media queries. The design mainly revolves around the concept of aliens/planets since ET is an acronym for both my name 'Eugene Tang' and extraterrestrials.",
-        techStack: 'HTML, CSS, Javascript',
+        techStack: 'HTML, CSS, JavaScript',
         links: [
             {
                 type: 'GitHub',

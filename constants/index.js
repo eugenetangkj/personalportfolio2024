@@ -193,6 +193,24 @@ export const techProjects = [
         ],
     },
     {
+        title: 'Good Goods',
+        award: "No Award",
+        imageUrl: "/assets/projects/tech/goodgoods.png",
+        description:
+            "Singaporeans recognise the importance of social enterprises and are willing to support them, but finding these businesses remains a significant challenge. Thus, Good Goods is a RAG-powered discovery platform that makes it easier for consumers to discover social enterprises based on their product needs.",
+        techStack: 'Next.JS, MongoDB, OpenAI',
+        links: [
+            {
+                type: 'GitHub',
+                url: 'https://github.com/eugenetangkj/good-goods'
+            },
+            {
+                type: 'Website',
+                url: 'https://goodgoods.vercel.app/'
+            },
+        ],
+    },
+    {
         title: 'neatnotes',
         award: "No Award",
         imageUrl: "/assets/projects/tech/neatnotes.png",

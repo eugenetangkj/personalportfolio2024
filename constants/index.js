@@ -198,7 +198,7 @@ export const techProjects = [
         imageUrl: "/assets/projects/tech/goodgoods.png",
         description:
             "Singaporeans recognise the importance of social enterprises and are willing to support them, but finding these businesses remains a significant challenge. Thus, Good Goods is a RAG-powered discovery platform that makes it easier for consumers to discover social enterprises based on their product needs.",
-        techStack: 'Next.JS, MongoDB, OpenAI',
+        techStack: 'Next.JS, Tailwind CSS, Flowbite, MongoDB, OpenAI',
         links: [
             {
                 type: 'GitHub',

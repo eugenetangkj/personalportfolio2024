@@ -80,7 +80,7 @@ function ProjectCard({
                                     {
                                         (link.type == 'Game')
                                         ? <VscGame className='text-lg sm:text-xl ml-2' /> 
-                                        : (link.type == 'Report')
+                                        : (link.type == 'Report' || link.type == 'Graphic')
                                         ? <IoDocumentOutline className='text-lg sm:text-xl ml-2' /> 
                                         : (link.type == 'Figma')
                                         ? <FaFigma className='text-lg sm:text-xl ml-2' /> 

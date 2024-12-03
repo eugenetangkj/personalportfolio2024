@@ -49,6 +49,25 @@ export const values = [
 
 export const experiences = [
     {
+        date: 'September 2024 - November 2024',
+        title: 'Data and Tech Intern at the Ministry of Social and Family Development',
+        award: 'Received a testimonial from the Team Manager',
+        techStack: 'Python, pandas, numpy, scikit-learn',
+        content:[
+            'Contributed to ops-tech solutions at Child Protective Service, Rehabilitation Protection Group',
+            'Led the prompt engineering process for Gen AI bots designed to reduce the administrative load of child protection officers in organising and summarising case notes',
+            'Performed feature engineering for a binary classification predictive analytics model to assess the risk of re-reporting for screened-out child abuse cases',
+            "Translated ops officers' requirements and developed a case flow simulation model, enabling stakeholders to assess the impact of various parameters on CPS's case pipeline",
+        ],
+        links: [
+            {
+                type: 'Testimonial',
+                url: 'https://drive.google.com/file/d/1tMPGxFwSK8lV63CvYSF3Mp8Wp2MaWcDJ/view?usp=sharing'
+            },
+        ],
+        delay: "0.5s"
+    },
+    {
         date: 'May 2024 - August 2024',
         title: 'Information Technology Developer Intern at CPF Board',
         award: 'Received a testimonial from the Senior Deputy Director',
@@ -66,7 +85,7 @@ export const experiences = [
                 url: 'https://drive.google.com/file/d/1Ig-5dhbEmFXJIj97JXCICiSPIsbkazNz/view?usp=sharing'
             },
         ],
-        delay: "0.5s"
+        delay: "1s"
     },
     {
         date: 'May 2023 - August 2023',
@@ -93,7 +112,7 @@ export const experiences = [
                 url: 'https://www.figma.com/file/1qLkgNfX1tY87gBl1ytPa8/Project-Reporting-App?type=design&node-id=0%3A1&mode=design&t=79MzopOjf4ntEe8l-1'
             }
         ],
-        delay: "1s"
+        delay: "1.5s"
     },
 
     {
@@ -111,7 +130,7 @@ export const experiences = [
                 url: 'https://credentials.nus.edu.sg/399b9cca-a52f-4630-9c98-139f631bf743'
             }
         ],
-        delay: "1.5s"
+        delay: "2s"
     },
 ]
 
@@ -500,6 +519,34 @@ export const designProjects = [
         ],
     },
     {
+        title: 'Halloween Infographic',
+        award: "No Award",
+        imageUrl: "/assets/projects/design/halloween-infographic.png",
+        description:
+            "An infographic designed to showcase statistics about Halloween in the US in 2023.",
+        techStack: 'Adobe Illustrator',
+        links: [
+            {
+                type: 'Graphic',
+                url: 'https://drive.google.com/file/d/1ae9hoR9v97N6qoFYULlGfQo9n8UBTMDJ/view?usp=sharing'
+            },
+        ],
+    },
+    {
+        title: 'Brand Guide for Dinosaur Illustrator',
+        award: "No Award",
+        imageUrl: "/assets/projects/design/dinosaur-brand-guide.png",
+        description:
+            "A brand guide created for a persona who specialises in creating dinosaur art for children's publications. It includes colour guidelines, typography, logo, logo guidelines, name card and resume.",
+        techStack: 'Adobe Illustrator, Adobe Photoshop, Adobe InDesign',
+        links: [
+            {
+                type: 'Graphic',
+                url: 'https://drive.google.com/file/d/1ae9hoR9v97N6qoFYULlGfQo9n8UBTMDJ/view?usp=sharing'
+            },
+        ],
+    },
+    {
         title: 'CampusVibe',
         award: "No Award",
         imageUrl: "/assets/projects/design/campusvibe.png",
@@ -543,10 +590,10 @@ export const volunteeringExperiences = [
         delay: "1s"
     },
     {
-        date: 'December 2021 - Present',
+        date: 'December 2021 - August 2024',
         title: 'Volunteer at Work Live Digital',
         type: 'elderly',
-        isOngoing: true,
+        isOngoing: false,
         content:[
             'Curated booklets on basic computer usage',
             'Facilitated computer classes for senior adults',

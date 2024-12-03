@@ -542,7 +542,7 @@ export const designProjects = [
         links: [
             {
                 type: 'Graphic',
-                url: 'https://drive.google.com/file/d/1ae9hoR9v97N6qoFYULlGfQo9n8UBTMDJ/view?usp=sharing'
+                url: 'https://drive.google.com/file/d/13KjEDrpH8Cr0SIy8m-D9RgDj0qv4i8mP/view?usp=sharing'
             },
         ],
     },

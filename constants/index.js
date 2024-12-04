@@ -149,7 +149,7 @@ export const techProjects = [
             },
             {
                 type: 'Game',
-                url: 'https://play.unity.com/en/games/1065bfb9-234d-474e-ba85-f1d477ea99e0/shooting-portals'
+                url: 'https://play.unity.com/en/games/b8323807-d21e-41ea-be07-df6772997bdd/shooting-portals'
             },
             {
                 type: 'Report',

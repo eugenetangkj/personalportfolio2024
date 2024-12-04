@@ -149,7 +149,7 @@ export const techProjects = [
             },
             {
                 type: 'Game',
-                url: 'https://play.unity.com/mg/other/webgl-builds-200053'
+                url: 'https://play.unity.com/en/games/1065bfb9-234d-474e-ba85-f1d477ea99e0/shooting-portals'
             },
             {
                 type: 'Report',
